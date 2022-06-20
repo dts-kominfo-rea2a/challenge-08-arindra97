@@ -1,0 +1,54 @@
+body {
+    background-color: #c299cc;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(173, 225, 246);
+    padding: 1em 2em;
+    border-radius: 1em;
+    overflow: hidden;
+    width: 25em;
+}
+
+#todo-title {
+    margin: 0 auto;
+    color: white;
+    background-color: blueviolet;
+    padding: 0.2em 1em;
+}
+
+#todo-subtitle {
+    margin: 1em auto;
+}
+
+#todo-input,
+#todo-submit {
+    border-style: none;
+    height: 3em;
+    border-radius: 1em;
+}
+
+#todo-input {
+    padding: 0.2em 1em;
+    width: 70%;
+}
+
+#todo-submit {
+    width: 20%;
+    background-color: rgb(105, 255, 91);
+    cursor: pointer;
+}
+
+#todo-submit:hover {
+    background-color: #aa66bb;
+    color: white;
+}
+
+#todo-output {
+    padding-bottom: 0.2em;
+}
